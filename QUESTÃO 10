@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    
+    inteiro contador = 1
+    inteiro numero
+    inteiro maior = 0
+
+    escreva("Localizador de Maior valor\n")
+    enquanto(contador <=5){
+      escreva("Digite o número: ")
+      leia(numero)
+      limpa()
+      se(contador == 1) 
+      maior = numero
+      se(numero > maior)
+      maior = numero
+      contador = contador + 1
+      }
+    escreva("O maior numero informado foi: ", maior)
+  }
+}
