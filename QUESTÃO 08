@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+    cadeia senha
+
+    escreva("sistema de acesso\n")
+    escreva("Digite sua senha:")
+    leia(senha)
+    limpa()
+
+    enquanto(senha != 120315){
+      escreva("Senha incorreta! Tente novamente:")
+      leia(senha)
+      limpa()
+      }
+      escreva("Acesso permitido!\n")
+      escreva("Bem-vindo ao sistema!\n")
+  }
+}
