@@ -1,0 +1,10 @@
+funcao inicio() {
+   
+    inteiro contador = 1
+    enquanto (contador <=5){
+    escreva("\nAlgoritmo")
+      
+    contador = contador + 1
+    }
+}
+}
