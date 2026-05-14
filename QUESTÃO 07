@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+    inteiro numero = -1
+    inteiro soma = 0
+
+    escreva("Soma Acumulada (Digite 0 para parar)\n")
+    enquanto(numero != 0){
+      
+      escreva("Digite um número:")
+      leia(numero)
+      limpa()
+      
+      soma = soma + numero }
+     
+      escreva("\nO laço foi encerrado.")
+      escreva("A soma total de todos os números digitados é: ", soma)
+  }
+}
