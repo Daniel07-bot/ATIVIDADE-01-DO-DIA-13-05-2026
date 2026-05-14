@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+   
+    inteiro contador = 1
+    inteiro numero_digitado
+    inteiro soma = 0
+
+     enquanto(contador <=5){
+     escreva("Digite UM número:")
+     leia(numero_digitado)
+     soma = soma + numero_digitado
+     contador = contador + 1
+     }
+     escreva("\n A soma total de todos os valores é:", soma)
+
+  }
+}
