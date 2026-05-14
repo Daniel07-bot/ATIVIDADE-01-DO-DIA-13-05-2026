@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+    inteiro numero
+    inteiro contador = 1
+    inteiro resultado
+
+    escreva("Digite um número: ")
+    leia(numero)
+    escreva("\ntabuada de número: ")
+
+    enquanto(contador <=10){
+      resultado = numero * contador
+    escreva(numero, "x", contador, "=", resultado, "\n")
+    contador = contador +1
+    }
+ escreva("\nFim da tabuada!\n")
+  }
+}
